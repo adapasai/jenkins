@@ -1,10 +1,10 @@
 pipeline {
-agentany 
-stages {
-  stage("first build") {
-  steps{
-  sh 'first build'
-} 
-}
+    agent any
+    stages {
+      stage("first build") {
+        steps {
+        sh 'first build'
+        }
+ }
 }
 }
