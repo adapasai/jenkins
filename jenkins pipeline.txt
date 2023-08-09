@@ -2,11 +2,9 @@ pipeline {
 agentany 
 stages {
   stage("first build") {
-  stages {
-  echo " " 
+  steps{
   sh 'first build'
 } 
 }
 }
 }
-  
